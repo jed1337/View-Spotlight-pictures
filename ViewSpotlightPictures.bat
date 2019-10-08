@@ -1,7 +1,7 @@
 @echo off
 
 rem Where the Spotlight images (and other unrelated images) are stored
-cd "%userprofile%\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets"
+cd /d "%userprofile%\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets"
 
 rem Where to extract the Spotlight pictures to
 set tempFolder=tempPictures
